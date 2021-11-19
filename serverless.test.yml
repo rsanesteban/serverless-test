@@ -1,0 +1,32 @@
+# Test definitions
+
+- name: Status
+  endpoint:
+    method: GET
+    path: /
+  request:
+    body:
+  response:
+    body:
+      title: "Status OK"
+      text: "API is up and running"
+
+- name: Hello Sergio
+  endpoint:
+    method: POST
+    path: /hello
+  request:
+    body:
+      name: "Sergio"
+  response:
+    body:
+      message: "Hello Sergio!"
+
+- name: Hello (None)
+  endpoint:
+    method: POST
+    path: /hello
+  # Without body
+  response:
+    body:
+      message: "Hello!"
