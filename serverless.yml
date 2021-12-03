@@ -2,6 +2,7 @@
 # app: my-app
 service: aws-python-project-2
 frameworkVersion: '2 || 3'
+app: my-lambda-app
 
 provider:
   name: aws
