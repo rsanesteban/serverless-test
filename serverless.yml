@@ -1,6 +1,6 @@
 # org: my-org
 # app: my-app
-service: aws-python-project-2
+service: leer-anuncios
 frameworkVersion: '2 || 3'
 app: my-lambda-app
 
