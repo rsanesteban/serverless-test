@@ -1,8 +1,8 @@
 # org: my-org
 # app: my-app
-service: serverless-test
+service: leer-anuncios
 frameworkVersion: '2 || 3'
-app: my-lambda-app
+app: serverless-test
 
 provider:
   name: aws
