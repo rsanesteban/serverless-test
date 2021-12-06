@@ -1,6 +1,6 @@
 # org: my-org
 # app: my-app
-service: leer-anuncios
+service: serverless-test
 frameworkVersion: '2 || 3'
 app: my-lambda-app
 
